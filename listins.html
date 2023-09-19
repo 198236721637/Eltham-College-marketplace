@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post a Listing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <!-- Add your logo or image here -->
+      <img src="header image.jpeg" alt="Your Logo">
+    </header>
+    
+    <!-- Main content section -->
+    <main>
+      <h1>Post a Listing</h1>
+      <!-- Listing form -->
+      <form action="listings sub.html" method="post">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="5" required></textarea>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" min="0" required>
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        
+        <button href="listings sub.html">Submit listing</button>
+      </form>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+      <!-- Add any necessary footer content here -->
+    </footer>
+  </body>
+</html>

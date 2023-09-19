@@ -1,0 +1,72 @@
+/* Add your CSS styles here */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  header {
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    height: 100%;
+    max-width: 1000%;
+  }
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: rgb(55, 106, 224);
+	text-decoration: none;
+    align-items: center;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+footer {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
+}
+.filters {
+	margin-bottom: 20px;
+}
+
+.filters label {
+	margin-right: 10px;
+}
+
+.filters input, .filters select {
+	margin-right: 20px;
+}
+
+.listings {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.listing {
+	width: 30%;
+	margin-right: 3%;
+	margin
